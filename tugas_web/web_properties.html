@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Real Estate Harmoni - Daftar Properti</title>
+  <link rel="stylesheet" href="stylee.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Real Estate Harmoni</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="properties.html">Daftar Properti</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Property Listing Section -->
+  <section class="container">
+    <h2>Daftar Properti</h2>
+    <table class="table">
+      <tr>
+        <th>Nama Properti</th>
+        <th>Lokasi</th>
+        <th>Harga</th>
+      </tr>
+      <tr>
+        <td>Rumah Harmoni Tipe A</td>
+        <td>Jakarta Selatan</td>
+        <td>Rp 1,500,000,000</td>
+      </tr>
+      <tr>
+        <td>Rumah Harmoni Tipe B</td>
+        <td>Bandung</td>
+        <td>Rp 1,200,000,000</td>
+      </tr>
+      <tr>
+        <td>Rumah Harmoni Tipe C</td>
+        <td>Surabaya</td>
+        <td>Rp 1,800,000,000</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Inquiry Form Section -->
+  <section class="container">
+    <h2>Tanyakan Tentang Properti</h2>
+    <form action="submit_inquiry.html" method="post">
+      <label for="name">Nama:</label>
+      <input type="text" id="name" name="name" required />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <label for="message">Pesan:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      <input type="submit" class="tombol simpan" value="Kirim Pesan" />
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Real Estate Harmoni. All rights reserved.</p>
+  </footer>
+</body>
+</html>

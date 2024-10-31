@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #f0f8ff;
+  }
+  header {
+    background: #007acc;
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .hero {
+    text-align: center;
+    padding: 50px;
+  }
+  .hero .tombol {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff7f50;
+    color: #fff;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .property-item .tombol1:hover{
+    background-color:black;
+    transform: scale(1.05);
+  }
+  .properties {
+    padding: 20px;
+    text-align: center;
+  }
+  .properties h2 {
+    color: #333;
+  }
+  .property-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+  }
+  .property-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 400px;
+    padding: 15px;
+    text-align: center;
+  }
+  .property-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  .property-item h3 {
+    color: #333;
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  .property-item p {
+    color: #777;
+    font-size: 14px;
+  }
+  .property-item .tombol {
+    display: inline-block;
+    padding: 10px;
+    background: #007acc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  

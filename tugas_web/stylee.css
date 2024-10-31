@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #f0f8ff;
+  }
+  header {
+    background: #007acc;
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .hero {
+    text-align: center;
+    padding: 50px;
+  }
+  .hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  .hero .tombol {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff7f50;
+    color: #fff;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .login-box, .table, form {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+  }
+  input[type="submit"] {
+    background: #007acc;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .table th, .table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  .table th {
+    background-color: #007acc;
+    color: white;
+  }
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  
